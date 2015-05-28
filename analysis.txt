@@ -1,0 +1,670 @@
+(S
+  (Chunk John/NNP)
+  (Chunk Bercow/NNP)
+  will/MD
+  be/VB
+  installed/VBN
+  unopposed/VBN
+  as/IN
+  (Chunk Speaker/NNP)
+  of/IN
+  the/DT
+  (Chunk House/NNP)
+  of/IN
+  (Chunk Commons/NNPS)
+  (Chunk tomorrow/NN)
+  (/:
+  (Chunk Monday/NNP)
+  )/:
+  after/IN
+  (Chunk Tory/NNP)
+  backbenchers/NNS
+  agreed/VBD
+  not/RB
+  to/TO
+  object/VB
+  to/TO
+  his/PRP$
+  (Chunk re-election/NN)
+  ./.)(S
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  is/VBZ
+  set/VBN
+  to/TO
+  continue/VB
+  as/IN
+  the/DT
+  157th/CD
+  (Chunk holder/NN)
+  of/IN
+  the/DT
+  historic/JJ
+  (Chunk post/NN)
+  at/IN
+  least/JJS
+  until/IN
+  2018/CD
+  following/VBG
+  a/DT
+  (Chunk decision/NN)
+  by/IN
+  his/PRP$
+  critics/NNS
+  not/RB
+  to/TO
+  exploit/VB
+  his/PRP$
+  current/JJ
+  (Chunk marital/NN)
+  problems/NNS
+  ./.)(S
+  The/DT
+  (Chunk re-election/NN)
+  of/IN
+  the/DT
+  (Chunk Speaker/NNP)
+  is/VBZ
+  the/DT
+  only/JJ
+  (Chunk item/NN)
+  on/IN
+  the/DT
+  (Chunk agenda/NN)
+  when/WRB
+  (Chunk MPs/NNP)
+  (Chunk gather/NN)
+  for/IN
+  the/DT
+  first/JJ
+  (Chunk time/NN)
+  following/VBG
+  the/DT
+  general/JJ
+  (Chunk election/NN)
+  ./.)(S
+  Traditionally/RB
+  ,/,
+  the/DT
+  (Chunk event/NN)
+  is/VBZ
+  an/DT
+  uncontroversial/JJ
+  one/CD
+  and/CC
+  the/DT
+  (Chunk Father/NNP)
+  of/IN
+  the/DT
+  Commons/NNS
+  ,/,
+  the/DT
+  longest/JJS
+  serving/VBG
+  (Chunk MP/NNP)
+  ,/,
+  would/MD
+  simply/RB
+  invite/VB
+  colleagues/NNS
+  to/TO
+  approve/VB
+  the/DT
+  (Chunk incumbent/NN)
+  ./.)(S
+  Five/CD
+  years/NNS
+  ago/RB
+  some/DT
+  Conservative/JJ
+  critics/NNS
+  shouted/VBN
+  objections/NNS
+  ,/,
+  after/IN
+  claiming/VBG
+  that/IN
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  had/VBD
+  not/RB
+  shown/VBN
+  (Chunk sufficient/NN)
+  (Chunk respect/NN)
+  for/IN
+  the/DT
+  (Chunk impartiality/NN)
+  or/CC
+  (Chunk authority/NN)
+  of/IN
+  his/PRP$
+  (Chunk role/NN)
+  ./.
+  But/CC
+  their/PRP$
+  voices/NNS
+  were/VBD
+  not/RB
+  considered/VBN
+  (Chunk loud/NN)
+  enough/RB
+  to/TO
+  trigger/VB
+  a/DT
+  (Chunk vote/NN)
+  ./.)(S
+  A/DT
+  (Chunk group/NN)
+  of/IN
+  (Chunk Tory/NNP)
+  (Chunk MPs/NNP)
+  has/VBZ
+  since/IN
+  continued/VBN
+  to/TO
+  claim/VB
+  that/IN
+  the/DT
+  (Chunk Speaker/NNP)
+  has/VBZ
+  not/RB
+  treated/VBN
+  their/PRP$
+  (Chunk party/NN)
+  with/IN
+  (Chunk sufficient/NN)
+  (Chunk decorum/NN)
+  or/CC
+  (Chunk balance/NN)
+  in/IN
+  the/DT
+  Commons/NNS
+  (Chunk chamber/NN)
+  ,/,
+  clashing/VBG
+  with/IN
+  the/DT
+  (Chunk Prime/NNP)
+  (Chunk Minister/NNP)
+  ,/,
+  ministers/NNS
+  and/CC
+  backbenchers/NNS
+  ./.)(S
+  His/PRP$
+  failed/VBD
+  (Chunk attempt/NN)
+  to/TO
+  replace/VB
+  the/DT
+  former/JJ
+  (Chunk Clerk/NNP)
+  of/IN
+  the/DT
+  Commons/NNS
+  (Chunk Sir/NNP)
+  (Chunk Robert/NNP)
+  (Chunk Rogers/NNP)
+  with/IN
+  an/DT
+  Australian/JJ
+  (Chunk Senate/NNP)
+  (Chunk official/NN)
+  sparked/VBD
+  a/DT
+  (Chunk backlash/NN)
+  among/IN
+  (Chunk MPs/NNP)
+  in/IN
+  several/JJ
+  parties/NNS
+  ./.)(S
+  In/IN
+  the/DT
+  (Chunk dying/NN)
+  days/NNS
+  of/IN
+  the/DT
+  last/JJ
+  (Chunk Parliament/NNP)
+  ,/,
+  (Chunk Conservative/NNP)
+  whips/NNS
+  staged/VBD
+  a/DT
+  (Chunk surprise/NN)
+  (Chunk vote/NN)
+  to/TO
+  elect/VB
+  the/DT
+  (Chunk Speaker/NNP)
+  by/IN
+  (Chunk secret/NN)
+  (Chunk ballot/NN)
+  ,/,
+  a/DT
+  (Chunk move/NN)
+  widely/RB
+  seen/VBN
+  as/IN
+  a/DT
+  (Chunk precursor/NN)
+  to/TO
+  a/DT
+  serious/JJ
+  (Chunk bid/NN)
+  to/TO
+  remove/VB
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  from/IN
+  (Chunk office/NN)
+  ./.)(S
+  The/DT
+  (Chunk move/NN)
+  ,/,
+  driven/RB
+  by/IN
+  No.10/-NONE-
+  and/CC
+  then/RB
+  (Chunk Chief/NNP)
+  (Chunk Whip/NNP)
+  (Chunk Michael/NNP)
+  (Chunk Gove/NNP)
+  ,/,
+  failed/VBD
+  after/IN
+  (Chunk Labour/NNP)
+  marshalled/VBD
+  its/PRP$
+  troops/NNS
+  and/CC
+  inflicted/VBD
+  a/DT
+  (Chunk rare/NN)
+  (Chunk defeat/NN)
+  on/IN
+  the/DT
+  (Chunk Government/NNP)
+  by/IN
+  228/CD
+  to/TO
+  202/CD
+  votes/NNS
+  ./.)(S
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  has/VBZ
+  seen/VBN
+  his/PRP$
+  private/JJ
+  (Chunk life/NN)
+  splashed/VBD
+  over/IN
+  the/DT
+  newspapers/NNS
+  in/IN
+  the/DT
+  past/JJ
+  (Chunk week/NN)
+  after/IN
+  his/PRP$
+  (Chunk wife/NN)
+  (Chunk Sally/NNP)
+  revealed/VBD
+  she/PRP
+  had/VBD
+  had/VBN
+  an/DT
+  affair/JJ
+  with/IN
+  his/PRP$
+  (Chunk cousin/NN)
+  ./.)(S
+  But/CC
+  even/RB
+  past/JJ
+  critics/NNS
+  now/RB
+  accept/VBP
+  that/IN
+  he/PRP
+  should/MD
+  not/RB
+  be/VB
+  challenged/VBN
+  in/IN
+  the/DT
+  (Chunk vote/NN)
+  (Chunk tomorrow/NN)
+  ./.
+  (Chunk New/NNP)
+  (Chunk Father/NNP)
+  of/IN
+  the/DT
+  (Chunk House/NNP)
+  ,/,
+  (Chunk Sir/NNP)
+  (Chunk Gerald/NNP)
+  (Chunk Kaufman/NNP)
+  ,/,
+  will/MD
+  confirm/VB
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  in/IN
+  (Chunk post/NN)
+  unless/IN
+  there/EX
+  is/VBZ
+  a/DT
+  sustained/VBN
+  (Chunk objection/NN)
+  shouted/VBN
+  by/IN
+  (Chunk MPs/NNP)
+  ./.)(S
+  (Chunk Nadine/NNP)
+  (Chunk Dorries/NNPS)
+  ,/,
+  who/WP
+  was/VBD
+  re-elected/JJ
+  (Chunk MP/NNP)
+  for/IN
+  Mid-Bedfordshire/JJ
+  with/IN
+  a/DT
+  huge/JJ
+  23,000/CD
+  (Chunk majority/NN)
+  on/IN
+  (Chunk May/NNP)
+  7/CD
+  ,/,
+  told/VBD
+  The/DT
+  (Chunk Huffington/NNP)
+  (Chunk Post/NNP)
+  (Chunk UK/NNP)
+  that/IN
+  she/PRP
+  would/MD
+  not/RB
+  repeat/VB
+  her/PRP$
+  (Chunk objection/NN)
+  of/IN
+  2010/CD
+  ./.)(S
+  ``/``
+  (Chunk Westminster/NNP)
+  is/VBZ
+  a/DT
+  small/JJ
+  (Chunk village/NN)
+  and/CC
+  I/PRP
+  've/VBP
+  made/VBN
+  my/PRP$
+  (Chunk peace/NN)
+  with/IN
+  (Chunk John/NNP)
+  since/IN
+  what/WP
+  happened/VBN
+  five/CD
+  years/NNS
+  ago/RB
+  ./.
+  I/PRP
+  've/VBP
+  only/RB
+  ever/RB
+  been/VBN
+  focused/VBN
+  on/IN
+  the/DT
+  (Chunk office/NN)
+  of/IN
+  the/DT
+  (Chunk Speaker/NNP)
+  and/CC
+  I/PRP
+  think/VBP
+  it/PRP
+  's/VBZ
+  important/JJ
+  to/TO
+  respect/VB
+  that/IN
+  (Chunk office/NN)
+  ,/,
+  ''/''
+  she/PRP
+  said/VBD)(S
+  Ms/NNS
+  (Chunk Dorries/NNPS)
+  added/VBD
+  that/IN
+  ``/``
+  it/PRP
+  's/VBZ
+  childish/JJ
+  ''/''
+  to/TO
+  continue/VB
+  long-running/JJ
+  feuds/NNS
+  in/IN
+  the/DT
+  (Chunk workplace/NN)
+  and/CC
+  attacked/VBD
+  the/DT
+  (Chunk Tory/NNP)
+  whips/VBZ
+  for/IN
+  their/PRP$
+  recent/JJ
+  (Chunk attempt/NN)
+  to/TO
+  (Chunk embarrass/NN)
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  ./.)(S
+  ``/``
+  At/IN
+  least/JJS
+  when/WRB
+  I/PRP
+  did/VBD
+  it/PRP
+  ,/,
+  it/PRP
+  was/VBD
+  really/RB
+  out/IN
+  in/IN
+  the/DT
+  open/JJ
+  ./.
+  It/PRP
+  was/VBD
+  n't/RB
+  an/DT
+  (Chunk underhand/NN)
+  (Chunk move/NN)
+  like/IN
+  the/DT
+  one/CD
+  in/IN
+  the/DT
+  last/JJ
+  days/NNS
+  of/IN
+  the/DT
+  last/JJ
+  (Chunk Parliament/NNP)
+  ./.
+  I/PRP
+  thought/VBD
+  that/IN
+  was/VBD
+  an/DT
+  (Chunk abuse/NN)
+  of/IN
+  (Chunk Parliament/NNP)
+  ./.
+  It/PRP
+  was/VBD
+  low/JJ
+  and/CC
+  (Chunk underhand/NN)
+  ./.
+  ''/'')(S
+  (Chunk David/NNP)
+  (Chunk Cameron/NNP)
+  told/VBD
+  the/DT
+  (Chunk backbench/NN)
+  1922/CD
+  (Chunk Committee/NNP)
+  privately/RB
+  last/JJ
+  (Chunk week/NN)
+  that/IN
+  his/PRP$
+  (Chunk side/NN)
+  should/MD
+  not/RB
+  object/VB
+  to/TO
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  's/POS
+  (Chunk re-election/NN)
+  ./.
+  (Chunk Government/NNP)
+  whips/NNS
+  will/MD
+  not/RB
+  get/VB
+  involved/VBN
+  in/IN
+  (Chunk tomorrow/NN)
+  's/POS
+  events/NNS
+  ./.)(S
+  One/CD
+  of/IN
+  (Chunk Mr/NNP)
+  (Chunk Bercow/NNP)
+  's/POS
+  sternest/JJS
+  critics/NNS
+  ,/,
+  (Chunk Michael/NNP)
+  (Chunk Fabricant/NNP)
+  ,/,
+  told/VBD
+  the/DT
+  (Chunk Huff/NNP)
+  (Chunk Post/NNP)
+  (Chunk UK/NNP)
+  that/IN
+  if/IN
+  there/EX
+  were/VBD
+  a/DT
+  (Chunk division/NN)
+  ,/,
+  he/PRP
+  could/MD
+  n't/RB
+  'in/VB
+  all/DT
+  (Chunk conscience/NN)
+  '/''
+  (Chunk vote/NN)
+  for/IN
+  the/DT
+  (Chunk Speaker/NNP)
+  's/POS
+  (Chunk re-election/NN)
+  ./.
+  But/CC
+  he/PRP
+  stressed/VBD
+  that/IN
+  he/PRP
+  would/MD
+  not/RB
+  push/VB
+  for/IN
+  a/DT
+  (Chunk vote/NN)
+  ./.)(S
+  ``/``
+  I/PRP
+  wo/MD
+  n't/RB
+  shout/VB
+  an/DT
+  (Chunk objection/NN)
+  ./.
+  (Chunk Nothing/NN)
+  is/VBZ
+  planned/VBN
+  ./.
+  There/EX
+  would/MD
+  certainly/RB
+  have/VB
+  been/VBN
+  a/DT
+  (Chunk challenge/NN)
+  if/IN
+  there/EX
+  had/VBD
+  been/VBN
+  a/DT
+  (Chunk secret/NN)
+  (Chunk ballot/NN)
+  ,/,
+  but/CC
+  there/EX
+  is/VBZ
+  n't/RB
+  and/CC
+  we/PRP
+  're/VBP
+  going/VBG
+  to/TO
+  let/VB
+  it/PRP
+  go/VB
+  ./.
+  ''/'')(S
+  Another/DT
+  unnamed/VBN
+  (Chunk Tory/NNP)
+  (Chunk MP/NNP)
+  felt/VBD
+  that/IN
+  it/PRP
+  would/MD
+  be/VB
+  'wrong/JJ
+  to/TO
+  kick/VB
+  a/DT
+  (Chunk man/NN)
+  when/WRB
+  he/PRP
+  's/VBZ
+  down/RP
+  '/POS
+  ./.)(S )(S )

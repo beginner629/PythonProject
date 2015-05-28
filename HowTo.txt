@@ -1,0 +1,5 @@
+baseScript       is for titles and links
+RemovingHrefTags is for what it says// can be modified to do other functions
+sampleNltk       is for tokenizing and tagging
+findAllTry       is for chunking // not perfect yet!
+counting         is for counting max 

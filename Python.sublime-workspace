@@ -1,0 +1,581 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"search",
+				"searchObj"
+			],
+			[
+				"dis",
+				"displayEmployee"
+			],
+			[
+				"displa",
+				"displayCount"
+			],
+			[
+				"parse",
+				"parseList"
+			],
+			[
+				"item",
+				"itemC"
+			],
+			[
+				"ex",
+				"exampleArray"
+			],
+			[
+				"li",
+				"linkSource"
+			],
+			[
+				"s",
+				"sourceCode"
+			],
+			[
+				"string",
+				"string_2"
+			],
+			[
+				"ma",
+				"main	main()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "RemovingHrefTags.py",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trimmed.txt",
+			"settings":
+			{
+				"buffer_size": 3451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#from BeautifulSoup import BeautifulSoup, NavigableString\n\nimport nltk\n#import re\nimport time\n\n\nclass Nouns:\n	name = ''\n	count=0\n\n	def __init__ (self,name,):\n		self.name = name\n		self.count= 1\n\n	def __repr__(self):\n		return 'Nouns name:%s count:%s' % (self.name, self.count)\n\n	def __str__(self):\n		return self.name + '  ' + self.count\n\n	def __getdata__(self):\n		print self.name + '   ' + self.count\n\nf= open('/home/revanth/Desktop/PythonProject/trimmed.txt','r')\ng= open('/home/revanth/Desktop/PythonProject/analyzing.txt','w+')\n\nexampleArray = f.readlines()\n\npopList = []\ndef processLanguage():\n\n	i = 0\n	popped=0\n	j=len(exampleArray)/2\n	#print j\n	chunks = [None] * j\n	#SomeList = [None] * j\n	try:\n		for i in range(0,2):\n\n\n			if exampleArray[2*i] is None:\n				popped+=1	\n			else :\n\n\n				tokenized = nltk.word_tokenize(exampleArray[2*i])\n				#print tokenized\n				tagged = nltk.pos_tag(tokenized)\n				#SomeList[i-popped] = tokenized\n				#print tagged\n				chunkGram = r\"\"\"Chunk: {<NNP?S?>*<NNP?S?>}\"\"\"\n				chunkParser=nltk.RegexpParser(chunkGram)\n\n				chunked = chunkParser.parse(tagged)\n				chunks [i-popped]=chunked\n\n				\n				#print chunks[i-popped]\n				g.write(str(tagged))\n				g.write('\\n')\n				print chunked\n				\n				#i=1+i\n				#chunked.draw()\n\n\n			#time.sleep(555)\n\n\n\n	except Exception,e:\n		print str(e)\n\n	#print 'This is a break'\n	parseList=[]\n	#parseList.append(Nouns(SomeList[0][0]))\n	\n	#print 'Some text'\n	#print popped\n\n\n	#for chunk in chunks[0]\n\nprocessLanguage()\n\nf.close()\ng.close()",
+			"file": "sampleNltk.py",
+			"file_size": 1493,
+			"file_write_time": 130771757748041382,
+			"settings":
+			{
+				"buffer_size": 1493,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import nltk\nimport re\n\n\nf=open('/home/revanth/Desktop/PythonProject/trimmed.txt','r')\n\ntemp=f.readline()\n\nif\ntext=f.readlines()\n\ntokenized=[]\nchunkGram = r\"\"\"Chunk: {(<NNP?S?>|<IN>)} \n							}<NNP?S?>+{\"\"\"\nchunkParser=nltk.RegexpParser(chunkGram)\n\ndef taggerNtokenizer(line):\n	tokenized.append(nltk.word_tokenize(line))\n	tagged = nltk.pos_tag(tokenized[-1])\n	chunked = chunkParser.parse(tagged)\n	print chunked\n\n	\n	print\n	print\n\nfor line in text:\n	if line:\n		if line=='':\n			continue\n		else:taggerNtokenizer(line)\n#print tokenized\n",
+			"file": "taggingNtokenizing.py",
+			"file_size": 508,
+			"file_write_time": 130772745727256427,
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/revanth/Desktop/Python Trials/POS tag list",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "package control ins",
+		"selected_items":
+		[
+			[
+				"package control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: List Unmanaged Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 632.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			" import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/revanth/Desktop/PythonProject"
+	],
+	"file_history":
+	[
+		"/home/revanth/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/revanth/Desktop/PythonProject/sampleNltk.py",
+		"/home/revanth/Desktop/PythonProject/analyzing.txt",
+		"/home/revanth/Desktop/Python Stuff/text1.txt",
+		"/home/revanth/Desktop/PythonProject/matter.txt",
+		"/home/revanth/Desktop/PythonProject/Python.sublime-project",
+		"/home/revanth/Desktop/PythonProject/ChunkingTrials.py",
+		"/home/revanth/Desktop/PythonProject/DynamicChunks.py",
+		"/home/revanth/Desktop/PythonProject/baseScript.py",
+		"/home/revanth/paths",
+		"/home/revanth/Desktop/Python Trials/script.py",
+		"/home/revanth/Desktop/PythonProject/HowTo.txt",
+		"/home/revanth/Desktop/PythonProject/counting.py",
+		"/home/revanth/Desktop/PythonProject/findAllTry.py",
+		"/home/revanth/Desktop/PythonProject/RemovingHrefTags.py",
+		"/home/revanth/Desktop/PythonProject/words.txt",
+		"/home/revanth/Desktop/PythonProject/result.py",
+		"/home/revanth/Desktop/PythonProject/analysis.txt",
+		"/home/revanth/Desktop/PythonProject/makeChunks.py",
+		"/tmp/plexmediaserver_0.9.12.1.1079-b655370_amd64.deb",
+		"/home/revanth/Desktop/Brackets.Release.1.3.64-bit.deb",
+		"/home/revanth/Desktop/PythonProject/trimmed.txt",
+		"/home/revanth/.proxy.swp",
+		"/home/revanth/.config/unity-tweak-tool/debug.log",
+		"/home/revanth/Desktop/PythonProject/PersonalTrial.py",
+		"/home/revanth/Desktop/PythonProject/Classes.py",
+		"/home/revanth/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/revanth/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/revanth/Desktop/PythonProject/random.py",
+		"/home/revanth/Desktop/PythonProject/links.txt",
+		"/home/revanth/Desktop/PythonProject/Subl.py",
+		"/home/revanth/Desktop/PythonProject/sampleNltk.txt",
+		"/home/revanth/Desktop/PythonProject/err.txt",
+		"/home/revanth/Desktop/PythonProject/RegularExp.py",
+		"/home/revanth/Desktop/PythonProject/text1.txt",
+		"/home/revanth/.config/sublime-text-3/Packages/anaconda-1.4.4/README.md",
+		"/home/revanth/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/revanth/Desktop/Python Stuff/script.py",
+		"/home/revanth/Desktop/Python Stuff/POS tag list",
+		"/home/revanth/Desktop/Python Trials/RegularExp.py",
+		"/home/revanth/Desktop/Python Stuff/text.txt",
+		"/home/revanth/Desktop/Python Trials/Classes.py",
+		"/home/revanth/Desktop/Python Trials/Subl.py",
+		"/home/revanth/Desktop/Python Stuff/sampleNltk.py",
+		"/home/revanth/Desktop/Python Stuff/sampleNltk.txt",
+		"/home/revanth/Desktop/PythonProject/untitled.sublime-project",
+		"/home/revanth/.cache/.fr-kEy3Pj/readme.md",
+		"/home/revanth/Desktop/Python Stuff/nltkTut.py",
+		"/home/revanth/Desktop/Python Stuff/PersonalTrial.py",
+		"/home/revanth/Desktop/Python Stuff/links.txt",
+		"/home/revanth/Desktop/Python Stuff/Backup.py",
+		"/home/revanth/Desktop/Python Stuff/baseScript.py",
+		"/home/revanth/Desktop/script.py",
+		"/home/revanth/Desktop/rss.xml",
+		"/home/revanth/Desktop/something.txt",
+		"/home/revanth/Desktop/good.txt",
+		"/home/revanth/Desktop/baseScript.py",
+		"/home/revanth/Desktop/err.txt",
+		"/home/revanth/Desktop/Tutorial.py",
+		"/home/revanth/Desktop/template.py",
+		"/etc/resolv.conf",
+		"/etc/dhcp/dhclient.conf",
+		"/etc/dnsmasq.conf",
+		"/home/revanth/CPractice/new.c",
+		"/home/revanth/CPractice/arrays.c",
+		"/home/revanth/CPractice/strings.c",
+		"/home/revanth/CPractice/test.c",
+		"/home/revanth/Downloads/sublime-text_build-3083_amd64.deb",
+		"/home/revanth/CPractice/strings",
+		"/home/revanth/CPractice/arrays",
+		"/home/revanth/CPractice/new.txt",
+		"/home/revanth/CPractice/new.asdf",
+		"/home/revanth/CPractice/file.cpp",
+		"/home/revanth/Desktop/mozilla.ps",
+		"/media/revanth/Rev/Win 8.1 key.txt",
+		"/media/revanth/Rev/Read me.txt",
+		"/home/revanth/Desktop/bharati_module3_lect12.ppt",
+		"/media/revanth/Rev/DC/Season 10 (1080p) [x265]/How to play HEVC (these files).txt",
+		"/home/revanth/.cache/.fr-QkYQPh/file_contexts",
+		"/home/revanth/.cache/.fr-gC7jsc/system/build.prop",
+		"/tmp/InteractionCDC.pdf",
+		"/home/revanth/Desktop/paths",
+		"/home/revanth/5.KNOHeCGJ.zG*^%CGfb",
+		"/etc/NetworkManager/system-connections/Wi-Fi connection 1",
+		"/etc/NetworkManager/system-connections/Ethernet connection 1",
+		"/home/revanth/Downloads/dashboard.html",
+		"/etc/sysctl.conf",
+		"/usr/share/icons/Adwaita/cursor.theme",
+		"/media/revanth/Rev/DC/Season 2/The Sopranos - 2x08 - Full Leather Jacket.en.srt",
+		"/home/revanth/Android/Sdk/extras/google/google_play_services/samples/maps/src/com/example/mapdemo/DemoDetails.java",
+		"/home/revanth/Android/Sdk/extras/google/google_play_services/samples/maps/AndroidManifest.xml",
+		"/home/revanth/Desktop/Untitled Document",
+		"/home/revanth/Downloads/SlidingMenu/bin/classes.dex",
+		"/home/revanth/Desktop/fragment_home.xml",
+		"/home/revanth/.cache/.fr-LON8bJ/res/layout/fragment_home.xml",
+		"/home/revanth/.cache/.fr-uJLsAJ/res/menu/main.xml",
+		"/home/revanth/AndroidProject/FacebookTrial/Mongoconn/app/src/main/res/values/dimens.xml",
+		"/home/revanth/.cache/.fr-BgZvKm/SlidingMenu/res/values/dimens.xml",
+		"/home/revanth/.cache/.fr-RVh39m/SlidingMenu/res/values/color.xml",
+		"/home/revanth/.bashrc",
+		"/home/revanth/.profile",
+		"/home/revanth/Android/Sdk/platform-tools/NOTICE.txt",
+		"/home/revanth/Android/Sdk/SDK Readme.txt",
+		"/media/revanth/Rev/DC/here/xsetup",
+		"/media/revanth/Rev/DC/here/xinfo",
+		"/home/revanth/Documents/Keypass",
+		"/media/revanth/Rev/DC/Games/desktop.ini",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fmedia%252Frevanth%252FRev%252FDC%252FXilinx%252520ISE%252520DS%252520Linux%25252014.2%252520%25255BFrodo%25255D.iso/xsetup",
+		"/media/revanth/Rev/Ambiance/metacity-1/metacity-theme-1.xml",
+		"/media/revanth/Rev/Ambiance/gtk-3.0/settings.ini",
+		"/media/revanth/Rev/Ambiance/gtk-2.0/apps/chromium.rc",
+		"/media/revanth/Rev/Ambiance/gtk-2.0/apps/nautilus.rc",
+		"/media/revanth/Rev/Ambiance/index.theme",
+		"/home/revanth/Downloads/trevilla-icons_1.2.3~precise~NoobsLab.com.dsc",
+		"/home/revanth/Downloads/LCD.txt",
+		"/var/log/mongodb/mongod.log",
+		"/var/log/mongodb/mongodb.log",
+		"/home/revanth/Downloads/android-sdk-linux/SDK Readme.txt",
+		"/home/revanth/Desktop/some.java",
+		"/etc/tor/torrc",
+		"/home/revanth/Downloads/android-sdk-linux/tools/NOTICE.txt",
+		"/home/revanth/.mozilla/firefox/mao5bygw.default/key3.db",
+		"/home/revanth/Dropbox/Safe/Lol.kdb",
+		"/home/revanth/.dc++/LinuxDC++.xml",
+		"/home/revanth/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/media/revanth/Rev/LCD.h",
+		"/home/revanth/Downloads/LCD.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"sublime",
+			"mat",
+			"lint",
+			"‘",
+			"”",
+			"“",
+			"’",
+			"link"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "RemovingHrefTags.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "trimmed.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3445,
+								3445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sampleNltk.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "taggingNtokenizing.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/revanth/Desktop/Python Trials/POS tag list",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 26.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 270.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Python.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

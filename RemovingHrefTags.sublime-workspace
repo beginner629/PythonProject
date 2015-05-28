@@ -1,0 +1,360 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"search",
+				"searchObj"
+			],
+			[
+				"dis",
+				"displayEmployee"
+			],
+			[
+				"displa",
+				"displayCount"
+			],
+			[
+				"parse",
+				"parseList"
+			],
+			[
+				"item",
+				"itemC"
+			],
+			[
+				"ex",
+				"exampleArray"
+			],
+			[
+				"li",
+				"linkSource"
+			],
+			[
+				"s",
+				"sourceCode"
+			],
+			[
+				"string",
+				"string_2"
+			],
+			[
+				"ma",
+				"main	main()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 159.0,
+		"last_filter": "package control ins",
+		"selected_items":
+		[
+			[
+				"package control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: List Unmanaged Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 632.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			" import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/revanth/Desktop/Search/data.txt",
+		"/home/revanth/Desktop/PythonProject/baseScript.py",
+		"/home/revanth/Desktop/PythonProject/analyzing.txt",
+		"/home/revanth/paths",
+		"/home/revanth/Desktop/Python Trials/script.py",
+		"/home/revanth/Desktop/PythonProject/HowTo.txt",
+		"/home/revanth/Desktop/PythonProject/counting.py",
+		"/home/revanth/Desktop/PythonProject/findAllTry.py",
+		"/home/revanth/Desktop/PythonProject/sampleNltk.py",
+		"/home/revanth/Desktop/PythonProject/RemovingHrefTags.py",
+		"/home/revanth/Desktop/PythonProject/words.txt",
+		"/home/revanth/Desktop/PythonProject/Python.sublime-project",
+		"/home/revanth/Desktop/PythonProject/result.py",
+		"/home/revanth/Desktop/PythonProject/analysis.txt",
+		"/home/revanth/Desktop/PythonProject/makeChunks.py",
+		"/tmp/plexmediaserver_0.9.12.1.1079-b655370_amd64.deb",
+		"/home/revanth/Desktop/Brackets.Release.1.3.64-bit.deb",
+		"/home/revanth/Desktop/PythonProject/trimmed.txt",
+		"/home/revanth/.proxy.swp",
+		"/home/revanth/.config/unity-tweak-tool/debug.log",
+		"/home/revanth/Desktop/PythonProject/PersonalTrial.py",
+		"/home/revanth/Desktop/PythonProject/Classes.py",
+		"/home/revanth/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/revanth/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/revanth/Desktop/PythonProject/random.py",
+		"/home/revanth/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/revanth/Desktop/PythonProject/links.txt",
+		"/home/revanth/Desktop/PythonProject/Subl.py",
+		"/home/revanth/Desktop/PythonProject/sampleNltk.txt",
+		"/home/revanth/Desktop/PythonProject/err.txt",
+		"/home/revanth/Desktop/PythonProject/RegularExp.py",
+		"/home/revanth/Desktop/PythonProject/text1.txt",
+		"/home/revanth/.config/sublime-text-3/Packages/anaconda-1.4.4/README.md",
+		"/home/revanth/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/revanth/Desktop/Python Stuff/text1.txt",
+		"/home/revanth/Desktop/Python Stuff/script.py",
+		"/home/revanth/Desktop/Python Stuff/POS tag list",
+		"/home/revanth/Desktop/Python Trials/RegularExp.py",
+		"/home/revanth/Desktop/Python Stuff/text.txt",
+		"/home/revanth/Desktop/Python Trials/Classes.py",
+		"/home/revanth/Desktop/Python Trials/Subl.py",
+		"/home/revanth/Desktop/Python Stuff/sampleNltk.py",
+		"/home/revanth/Desktop/Python Stuff/sampleNltk.txt",
+		"/home/revanth/Desktop/PythonProject/untitled.sublime-project",
+		"/home/revanth/.cache/.fr-kEy3Pj/readme.md",
+		"/home/revanth/Desktop/Python Stuff/nltkTut.py",
+		"/home/revanth/Desktop/Python Stuff/PersonalTrial.py",
+		"/home/revanth/Desktop/Python Stuff/links.txt",
+		"/home/revanth/Desktop/Python Stuff/Backup.py",
+		"/home/revanth/Desktop/Python Stuff/baseScript.py",
+		"/home/revanth/Desktop/script.py",
+		"/home/revanth/Desktop/rss.xml",
+		"/home/revanth/Desktop/something.txt",
+		"/home/revanth/Desktop/good.txt",
+		"/home/revanth/Desktop/baseScript.py",
+		"/home/revanth/Desktop/err.txt",
+		"/home/revanth/Desktop/Tutorial.py",
+		"/home/revanth/Desktop/template.py",
+		"/etc/resolv.conf",
+		"/etc/dhcp/dhclient.conf",
+		"/etc/dnsmasq.conf",
+		"/home/revanth/CPractice/new.c",
+		"/home/revanth/CPractice/arrays.c",
+		"/home/revanth/CPractice/strings.c",
+		"/home/revanth/CPractice/test.c",
+		"/home/revanth/Downloads/sublime-text_build-3083_amd64.deb",
+		"/home/revanth/CPractice/strings",
+		"/home/revanth/CPractice/arrays",
+		"/home/revanth/CPractice/new.txt",
+		"/home/revanth/CPractice/new.asdf",
+		"/home/revanth/CPractice/file.cpp",
+		"/home/revanth/Desktop/mozilla.ps",
+		"/media/revanth/Rev/Win 8.1 key.txt",
+		"/media/revanth/Rev/Read me.txt",
+		"/home/revanth/Desktop/bharati_module3_lect12.ppt",
+		"/media/revanth/Rev/DC/Season 10 (1080p) [x265]/How to play HEVC (these files).txt",
+		"/home/revanth/.cache/.fr-QkYQPh/file_contexts",
+		"/home/revanth/.cache/.fr-gC7jsc/system/build.prop",
+		"/tmp/InteractionCDC.pdf",
+		"/home/revanth/Desktop/paths",
+		"/home/revanth/5.KNOHeCGJ.zG*^%CGfb",
+		"/etc/NetworkManager/system-connections/Wi-Fi connection 1",
+		"/etc/NetworkManager/system-connections/Ethernet connection 1",
+		"/home/revanth/Downloads/dashboard.html",
+		"/etc/sysctl.conf",
+		"/usr/share/icons/Adwaita/cursor.theme",
+		"/media/revanth/Rev/DC/Season 2/The Sopranos - 2x08 - Full Leather Jacket.en.srt",
+		"/home/revanth/Android/Sdk/extras/google/google_play_services/samples/maps/src/com/example/mapdemo/DemoDetails.java",
+		"/home/revanth/Android/Sdk/extras/google/google_play_services/samples/maps/AndroidManifest.xml",
+		"/home/revanth/Desktop/Untitled Document",
+		"/home/revanth/Downloads/SlidingMenu/bin/classes.dex",
+		"/home/revanth/Desktop/fragment_home.xml",
+		"/home/revanth/.cache/.fr-LON8bJ/res/layout/fragment_home.xml",
+		"/home/revanth/.cache/.fr-uJLsAJ/res/menu/main.xml",
+		"/home/revanth/AndroidProject/FacebookTrial/Mongoconn/app/src/main/res/values/dimens.xml",
+		"/home/revanth/.cache/.fr-BgZvKm/SlidingMenu/res/values/dimens.xml",
+		"/home/revanth/.cache/.fr-RVh39m/SlidingMenu/res/values/color.xml",
+		"/home/revanth/.bashrc",
+		"/home/revanth/.profile",
+		"/home/revanth/Android/Sdk/platform-tools/NOTICE.txt",
+		"/home/revanth/Android/Sdk/SDK Readme.txt",
+		"/media/revanth/Rev/DC/here/xsetup",
+		"/media/revanth/Rev/DC/here/xinfo",
+		"/home/revanth/Documents/Keypass",
+		"/media/revanth/Rev/DC/Games/desktop.ini",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fmedia%252Frevanth%252FRev%252FDC%252FXilinx%252520ISE%252520DS%252520Linux%25252014.2%252520%25255BFrodo%25255D.iso/xsetup",
+		"/media/revanth/Rev/Ambiance/metacity-1/metacity-theme-1.xml",
+		"/media/revanth/Rev/Ambiance/gtk-3.0/settings.ini",
+		"/media/revanth/Rev/Ambiance/gtk-2.0/apps/chromium.rc",
+		"/media/revanth/Rev/Ambiance/gtk-2.0/apps/nautilus.rc",
+		"/media/revanth/Rev/Ambiance/index.theme",
+		"/home/revanth/Downloads/trevilla-icons_1.2.3~precise~NoobsLab.com.dsc",
+		"/home/revanth/Downloads/LCD.txt",
+		"/var/log/mongodb/mongod.log",
+		"/var/log/mongodb/mongodb.log",
+		"/home/revanth/Downloads/android-sdk-linux/SDK Readme.txt",
+		"/home/revanth/Desktop/some.java",
+		"/etc/tor/torrc",
+		"/home/revanth/Downloads/android-sdk-linux/tools/NOTICE.txt",
+		"/home/revanth/.mozilla/firefox/mao5bygw.default/key3.db",
+		"/home/revanth/Dropbox/Safe/Lol.kdb",
+		"/home/revanth/.dc++/LinuxDC++.xml",
+		"/home/revanth/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/media/revanth/Rev/LCD.h",
+		"/home/revanth/Downloads/LCD.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"sublime",
+			"mat",
+			"lint",
+			"‘",
+			"”",
+			"“",
+			"’",
+			"link"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RemovingHrefTags.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
